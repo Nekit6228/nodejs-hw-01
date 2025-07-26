@@ -1,3 +1,3 @@
-import { join } from 'path';
+import { path } from 'path';
 
-export const PATH_DB = join('src', 'db', 'db.json');
+export const PATH_DB = path.join('src', 'db', 'db.json');
